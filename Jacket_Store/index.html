@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <script src="https://use.fontawesome.com/releases/v5.15.4/js/all.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="Products.css">
+
+    <title>Jacket Store</title>
+</head>
+
+
+<body onload="checkSession()">
+
+    <div class="container">
+        <header class="openHeader">
+            <div class="logo">
+                <img src="omar.jpeg" alt="logo">
+            </div>
+            <nav class="navigation">
+
+                <div class="botns">
+                    <button id="open" class="btn">&#9776;</button>
+                    <button id="close" class="hide btn">&times;</button>
+                </div>
+
+                <div class="umorder hide menu ">
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Contact</a></li>
+                        <li><a href="#">Services</a></li>
+                        <li id="loginLink" class="none"><a href="./LogIn/login.html">Login</a></li>
+                        <li id="signupLink" class="none"><a href="./LogIn/signup.html">Sign Up</a></li>
+                    </ul>
+                </div>
+            </nav>
+            <!-- Iconses -->
+            <div class="header-icons">
+                <a id="userIcon"><i class="fa fa-user"></i></a>
+
+                <div class="shoppingcard">
+                    <a href="#">
+                        <i id="cartList" class="fa fa-cart-arrow-down"></i>
+                        <span id="cartCount"></span>
+                    </a>
+                </div>
+
+                <a href="#"><i class="fa fa-heart"></i></a>
+            </div>
+        </header>
+
+        <!-- main -->
+        <div class="main">
+
+            <h1 id="textTitle" class="texttitle">
+                <span id="textContent"></span><span class="cursor"></span>
+            </h1>
+
+            <div class="pragraph">
+                <p>Discover unparalleled warmth and style with our
+                    premium insulating jackets, crafted from technical
+                    fabrics that keep you cozy in any weather. </p>
+                <p>Engineered for performance, each jacket features durable zippers,
+                    water-repellent finishes, and
+                    adjustable hoods that adapt seamlessly to your adventures. </p>
+            </div>
+            <div class="search ">
+                <input id="searchInput" type="Search" placeholder="Search">
+                <button id="showSearch"><i class="fa fa-search"></i></button>
+            </div>
+
+            <div id="dragWindow" class="drag-window">
+                <div id="headset" class="help">
+                    <i class="fas fa-headset"></i>
+                </div>
+            </div>
+        </div>
+
+        <div class="mainimage">
+            <div class="main-image">
+                <img id="jack" src="./images/image1.png" alt="imge">
+            </div>
+
+            <div class="arrowbottom">
+                <div class="arrow left" onclick="prevWithPause()">&#10094;</div>
+                <div class="arrow right" onclick="nextWithPause()">&#10095;</div>
+            </div>
+        </div>
+
+    </div>
+
+
+
+    <h2 class="title">Products</h2>
+    <div id="toast"></div>
+    <div class="products_container">
+        <!-- Product 1 -->
+        <div class="product">
+            <div class="celing">
+                <button><i class="fa fa-heart"></i></button>
+                <button><i class="fa fa-share"></i></button>
+            </div>
+            <div class="image-text">
+                <img src="./Jackts/1/i.jpg" alt="image">
+                <h3>JACKET</h3>
+                <p class="text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ullam</p>
+                <p class="price">$249.99</p>
+                <i class="stars"><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i
+                        class="fa fa-star"></i><i class="fa fa-star"></i></i>
+                <button onclick="addToCart()" class="add-to-cart">Add to Cart</button>
+            </div>
+
+        </div>
+
+
+        <!-- Product 2 -->
+        <div class="product">
+            <div class="celing">
+                <button><i class="fa fa-heart"></i></button>
+                <button><i class="fa fa-share"></i></button>
+            </div>
+
+            <div class="image-text">
+                <img src="./Jackts/1/ii.jpg" alt="image">
+                <h3>JACKET</h3>
+                <p class="text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ullam</p>
+                <p class="price">$400.99</p>
+                <i class="stars"><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i
+                        class="fa fa-star"></i><i class="fa fa-star"></i></i>
+                <button onclick="addToCart()" class="add-to-cart">Add to Cart</button>
+            </div>
+
+        </div>
+
+
+        <!-- Product 3 -->
+        <div class="product">
+            <div class="celing">
+                <button><i class="fa fa-heart"></i></button>
+                <button><i class="fa fa-share"></i></button>
+            </div>
+
+            <div class="image-text">
+                <img src="./Jackts/1/iii.jpg" alt="image">
+                <h3>JACKET</h3>
+                <p class="text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ullam</p>
+                <p class="price">$135.9</p>
+                <i class="stars"><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i
+                        class="fa fa-star"></i><i class="fa fa-star"></i></i>
+                <button onclick="addToCart()" class="add-to-cart">Add to Cart</button>
+            </div>
+
+        </div>
+
+
+        <!-- Product 4 -->
+        <div class="product">
+            <div class="celing">
+                <button><i class="fa fa-heart"></i></button>
+                <button><i class="fa fa-share"></i></button>
+            </div>
+
+            <div class="image-text">
+                <img src="./Jackts/1/iiii.jpg" alt="image">
+                <h3>JACKET</h3>
+                <p class="text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ullam</p>
+                <p class="price">$320.89</p>
+                <i class="stars"><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i
+                        class="fa fa-star"></i><i class="fa fa-star"></i></i>
+                <button onclick="addToCart()" class="add-to-cart">Add to Cart</button>
+            </div>
+
+        </div>
+
+
+        <!-- Product 5 -->
+        <div class="product">
+            <div class="celing">
+                <button><i class="fa fa-heart"></i></button>
+                <button><i class="fa fa-share"></i></button>
+            </div>
+
+            <div class="image-text">
+                <img src="./Jackts/1/iiiii.jpg" alt="image">
+                <h3>JACKET</h3>
+                <p class="text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ullam</p>
+                <p class="price">$130</p>
+                <i class="stars"><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i
+                        class="fa fa-star"></i><i class="fa fa-star"></i></i>
+                <button onclick="addToCart()" class="add-to-cart">Add to Cart</button>
+            </div>
+
+        </div>
+
+
+        <!-- Product 6 -->
+        <div class="product">
+            <div class="celing">
+                <button><i class="fa fa-heart"></i></button>
+                <button><i class="fa fa-share"></i></button>
+            </div>
+
+            <div class="image-text">
+                <img src="./Jackts/1/iiiiii.jpg" alt="image">
+                <h3>JACKET</h3>
+                <p class="text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ullam</p>
+                <p class="price">$130.99</p>
+                <i class="stars"><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i
+                        class="fa fa-star"></i><i class="fa fa-star"></i></i>
+                <button onclick="addToCart()" class="add-to-cart">Add to Cart</button>
+            </div>
+
+        </div>
+
+
+        <!-- Product 7 -->
+        <div class="product">
+            <div class="celing">
+                <button><i class="fa fa-heart"></i></button>
+                <button><i class="fa fa-share"></i></button>
+            </div>
+
+            <div class="image-text">
+                <img src="./Jackts/1/iiv.jpg" alt="image">
+                <h3>JACKET</h3>
+                <p class="text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ullam</p>
+                <p class="price">$398.99</p>
+                <i class="stars"><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i
+                        class="fa fa-star"></i><i class="fa fa-star"></i></i>
+                <button onclick="addToCart()" class="add-to-cart">Add to Cart</button>
+            </div>
+
+        </div>
+
+
+        <!-- Product 8 -->
+        <div class="product">
+            <div class="celing">
+                <button><i class="fa fa-heart"></i></button>
+                <button><i class="fa fa-share"></i></button>
+            </div>
+
+            <div class="image-text">
+                <img src="./Jackts/1/iv.jpg" alt="image">
+                <h3>JACKET</h3>
+                <p class="text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ullam</p>
+                <p class="price">$19.99</p>
+                <i class="stars"><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i
+                        class="fa fa-star"></i><i class="fa fa-star"></i></i>
+                <button onclick="addToCart()" class="add-to-cart">Add to Cart</button>
+            </div>
+
+        </div>
+
+
+        <!-- Product 9 -->
+        <div class="product">
+            <div class="celing">
+                <button><i class="fa fa-heart"></i></button>
+                <button><i class="fa fa-share"></i></button>
+            </div>
+
+            <div class="image-text">
+                <img src="./Jackts/2/A (2).jpg" alt="image">
+                <h3>JACKET</h3>
+                <p class="text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ullam</p>
+                <p class="price">$120</p>
+                <i class="stars"><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i
+                        class="fa fa-star"></i><i class="fa fa-star"></i></i>
+                <button onclick="addToCart()" class="add-to-cart">Add to Cart</button>
+            </div>
+
+        </div>
+
+
+        <!-- Product 10 -->
+        <div class="product">
+            <div class="celing">
+                <button><i class="fa fa-heart"></i></button>
+                <button><i class="fa fa-share"></i></button>
+            </div>
+
+            <div class="image-text">
+                <img src="./Jackts/2/B (2).jpg" alt="image">
+                <h3>JACKET</h3>
+                <p class="text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ullam</p>
+                <p class="price">$200.99</p>
+                <i class="stars"><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i
+                        class="fa fa-star"></i><i class="fa fa-star"></i></i>
+                <button onclick="addToCart()" class="add-to-cart">Add to Cart</button>
+            </div>
+
+        </div>
+
+
+        <!-- Product 11 -->
+        <div class="product">
+            <div class="celing">
+                <button><i class="fa fa-heart"></i></button>
+                <button><i class="fa fa-share"></i></button>
+            </div>
+
+            <div class="image-text">
+                <img src="./Jackts/2/E (2).jpg" alt="image">
+                <h3>JACKET</h3>
+                <p class="text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ullam</p>
+                <p class="price">$206.99</p>
+                <i class="stars"><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i
+                        class="fa fa-star"></i><i class="fa fa-star"></i></i>
+                <button onclick="addToCart()" class="add-to-cart">Add to Cart</button>
+            </div>
+
+        </div>
+
+
+        <!-- Product 12 -->
+        <div class="product">
+            <div class="celing">
+                <button><i class="fa fa-heart"></i></button>
+                <button><i class="fa fa-share"></i></button>
+            </div>
+
+            <div class="image-text">
+                <img src="./Jackts/4/f.jpg" alt="image">
+                <h3>JACKET</h3>
+                <p class="text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ullam</p>
+                <p class="price">$400.99</p>
+                <i class="stars"><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i
+                        class="fa fa-star"></i><i class="fa fa-star"></i></i>
+                <button onclick="addToCart()" class="add-to-cart">Add to Cart</button>
+            </div>
+
+        </div>
+    </div>
+
+
+
+    <div class="footer">
+
+        <div class="footer-icons">
+            <h2>Contact</h2>
+            <p>
+                <i><i class="fas fa-house-user"></i></i>
+                123 Street, City, Country
+            </p>
+
+            <p>
+                <i><i class="fas fa-phone"></i></i>
+                Phone: +1 (123) 456-7890
+            </p>
+
+            <p>
+                <i><i class="fas fa-envelope"></i></i>
+                Email: 0jM0U@example.com
+            </p>
+        </div>
+
+        <div class="footer-info">
+            <h2>Get Help</h2>
+            <p>FAQ</p>
+            <p>Shipping</p>
+            <p>Returns</p>
+        </div>
+
+        <div class="footer-info">
+            <h2>Our Stores</h2>
+            <p>USA</p>
+            <p>UK</p>
+            <p>Canada</p>
+        </div>
+        <div class="footer-info  fotericons">
+            <h2>Follow Us</h2>
+            <div class="social-media">
+                <div class="social-media">
+                    <a href="#" class="facebook"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#" class="twitter"><i class="fab fa-twitter"></i></a>
+
+                    <a href="#"><img class="instagram-gradient" src="./instagram.png" alt="instagram"></a>
+                    <a href="#"><img class="google-gradient" src="./google.webp" alt="google"></a>
+                </div>
+
+            </div>
+        </div>
+            <div id="successMsg" class="alert">Profile updated successfully!</div>
+    </div>
+
+    <script src="./LogIn/auth.js"></script>
+    <script src="./nain.js"></script>
+</body>
+
+</html>

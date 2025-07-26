@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initialscale=1.0" />
+    <title>Document</title>
+    <style>
+      /*! *********************import********************* !*/
+      @font-face {
+        font-family: "Figtree";
+        src: url(./assets/fonts/Figtree-SemiBold.ttf);
+        font-weight: 500;
+      }
+      @font-face {
+        font-family: "Figtree";
+        src: url(./assets/fonts/Figtree-ExtraBold.ttf);
+        font-weight: 800;
+      }
+      /*! *********************Reset********************* !*/
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      img {
+        max-width: 100%;
+      }
+      /*! *********************Global********************* !*/
+      :root {
+        --Yellow: hsl(47, 88%, 63%);
+        --White: hsl(0, 0%, 100%);
+        --Gray-500: hsl(0, 0%, 42%);
+        --Gray-950: hsl(0, 0%, 7%);
+      }
+      body {
+        background-color: var(--Yellow);
+        font-size: 16px;
+        font-family: "Figtree", sans-serif;
+        line-height: 1.5;
+      }
+      h1 {
+        color: var(--Gray-950);
+        font-size: 1.4em;
+        margin: 1em 0;
+      }
+      /*! *********************Body Content********************* !*/
+      main {
+        background-color: var(--White);
+        width: 90%;
+        margin: 4em auto;
+        padding: 1.5em;
+        padding-bottom: 2em;
+        border-radius: 0.85em;
+        box-shadow: 8px 8px 1px 0 #000;
+      }
+      .badge {
+        background-color: rgb(0, 255, 128);
+        font-weight: bold;
+        text-align: center;
+        width: fit-content;
+        padding: 0.3em;
+        margin: 0.5em 0;
+      }
+      .desc {
+        color: var(--Gray-500);
+      }
+      .footer img {
+        vertical-align: middle;
+        max-width: 40px;
+        margin-right: 0.3em;
+        margin-top: 0.7;
+      }
+      .datetime {
+        color: red;
+        visibility: visible;
+      }
+      h1 {
+        color: rgb(0, 255, 34);
+      }
+      .desc {
+        color: rgb(0, 4, 255);
+      }
+      .footer {
+        color: rgb(0, 174, 255);
+      }
+      /*! *********************Media Query********************* !*/
+    </style>
+  </head>
+  <body>
+    <main>
+      <img src="./IMG_٢٠٢٤١١٠١_٠٥١٢٥٧.jpg" alt="box header" />
+      <p class="badge">Learning</p>
+      <p class="datetime">Published 21 Dec 2023</p>
+      <h1>HTML & CSS foundations</h1>
+      <p class="desc">
+        These languages are the backbone of every website, defining structure,
+        content, and presentation.
+      </p>
+      <p class="footer">
+        <img src="./IMG_٢٠٢٤٠٨٢٩_٠١٢٧٥١.jpg" alt="person" />
+        Omar Muhammad
+      </p>
+    </main>
+  </body>
+</html>
+

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ONAR</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+
+    <style>
+        input:focus {
+            border: 0.5px solid #ee808be5 !important;
+        }
+    </style>
+
+</head>
+
+<body class="bg-danger d-flex justify-content-center align-items-center vh-100">
+
+    <div class="bg-white p-4 rounded-3 shadow w-100 " style="max-width: 400px;">
+
+        <h1 class="text-center text-danger mb-4  fw-bold">Login</h1>
+        <form action="">
+
+            <div class="mb-3">
+                <label for="name" class="form-label">Name:</label>
+                <input type="text" class="form-control focus-ring focus-ring-danger" id="name" placeholder="your name">
+            </div>
+
+            <div class="mb-3">
+                <label for="email" class="form-label">Email:</label>
+                <input type="text" class="form-control focus-ring focus-ring-danger" id="email" placeholder="your email">
+            </div>
+
+            <div class="mb-3 form-check">
+                <input type="checkbox" class="form-check-input" id="remember">
+                <label class="form-check-label" for="remember">Remember me</label>
+            </div>
+
+            <button type="submit" class="btn btn-danger w-100">Login</button>
+
+            <div class="text-center mt-3">
+                <a href="#" class="text-decoration-none text-danger">Forgot password?</a>
+            </div>
+        </form>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://use.fontawesome.com/releases/v5.15.4/js/all.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./signup.css">
+    <title>Sign Up</title>
+</head>
+
+<body>
+    <div class="contaner container">
+        <div class="logo">
+            <h1 class="gradient-text">Sign Up</h1>
+        </div>
+
+        <div class="all_fields">
+            <form onsubmit="signup(event)">
+                
+                <!-- first name and last name -->
+                <div class="name">
+                    <div class="first field">
+                        <label for="first">First Name:<span>*</span></label>
+                        <input type="text" name="first" id="first" placeholder="Fiest Name">
+                        <span id="errorFirst" class="errorMsg"></span>
+                    </div>
+                    <div class="last field">
+                        <label for="last">Last Name:<span>*</span></label>
+                        <input type="text" name="last" id="last" placeholder="Last Name">
+                        <span id="errorLast" class="errorMsg"></span>
+                    </div>
+                </div>
+                
+                <!-- enail and pass -->
+                <div class="fields">
+                    <div class="email field">
+                        <label for="email">Email:<span>*</span></label>
+                        <input type="email" name="email" id="email" placeholder="Email">
+                        <span id="errorEmail" class="errorMsg"></span>
+                    </div>
+                    
+                    <div class="address field">
+                        <label for="address">Address:<span>*</span></label>
+                        <input type="address" name="address" id="address" placeholder="Address">
+                        <span id="errorAddress" class="errorMsg"></span>
+                    </div>
+
+                    <div class="pass field">
+                        <label for="pass">Password:<span>*</span></label>
+                        <!-- <input type="password" name="pass" id="pass" placeholder="Password">
+                        <span id="errorPassword" class="errorMsg"></span> -->
+
+
+                                <div class="password-wrapper">
+
+                            <input type="password" name="pass" id="pass" placeholder="Password">
+                            <span id="toggleEye" class="toggle-icon"><i class='fas fa-eye'></i></span>
+                            <span id="toggleSlash" class="toggle-icon hide "><i class='fas fa-eye-slash'></i></span>
+                        </div>
+                        <span id="errorPassword" class="errorMsg"></span>
+
+
+
+                    </div>
+
+                    <div class="forgotten">
+                        <span>Have an account? <a 
+                            href="./login.html">Log in</a></span>
+                    </div>
+                    <!-- Forgotten your password? -->
+                </div>
+                <!-- submit -->
+                <div class="submit">
+                    <input type="submit" value="Log in">
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <script src="./auth.js"></script>
+</body>
+
+</html>

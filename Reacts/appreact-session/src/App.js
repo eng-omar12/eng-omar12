@@ -1,0 +1,12 @@
+import "./App.css";
+import Navbar from "./Navbar";
+
+const App = () => {
+  return (
+    <div className="container">
+      <Navbar />
+    </div>
+  );
+}
+
+export default App;

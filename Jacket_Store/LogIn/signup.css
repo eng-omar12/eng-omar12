@@ -1,0 +1,239 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    user-select: none;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    background-color: #fff;
+    min-width: 150px !important;
+    overflow-x: hidden;
+}
+
+.contaner {
+    width: 100%;
+    max-width: 30%;
+    padding: 20px 20px 40px;
+    box-shadow: 0 0 10px 0.1px #a0517863;
+    margin: 10px 0 10px 10px;
+}
+
+
+.container {
+    position: relative;
+    border: 2px solid transparent;
+    border-radius: 30px;
+
+    background-image: linear-gradient(#ffffff, #ffffff),
+        linear-gradient(90deg, #ff0080 5%, #6d6d6d00 30%, #8b31face 5%);
+    background-origin: border-box;
+    background-clip: padding-box, border-box;
+    background-size: 400% 100%;
+    animation: animated-border 4s linear infinite;
+    -webkit-animation: animated-border 4s linear infinite;
+}
+
+@keyframes animated-border {
+    0% {
+        background-position: 0% 0%;
+    }
+
+    100% {
+        background-position: 400% 0%;
+    }
+}
+
+
+
+
+
+.logo {
+    text-align: center;
+    padding: 30px 0 20px 0;
+}
+
+.gradient-text {
+    font-size: 70px;
+    background: linear-gradient(to right, #ff379bd3, #8b31face);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    -webkit-text-fill-color: transparent;
+    display: inline-block;
+
+}
+
+
+.all_fields {
+    display: flex;
+    justify-content: center;
+}
+
+.fields {
+    margin-top: 15px;
+}
+
+.fields .field {
+    padding-bottom: 10px;
+}
+
+.name {
+    display: flex;
+    flex-wrap: nowrap;
+    width: 100%;
+    gap: 15px;
+}
+
+@media (max-width: 1505px) {
+    .contaner {
+        max-width: 40%;
+    }
+}
+
+@media (max-width: 912px) and (min-width: 853px) {
+    .contaner {
+        max-width: 70%;
+    }
+}
+
+@media (max-width: 853px) {
+    .contaner {
+        max-width: 60%;
+    }
+}
+
+@media (max-width: 540px) {
+    .contaner {
+        max-width: 80%;
+    }
+}
+
+
+@media (max-width: 412px) {
+    .contaner {
+        max-width: 90%;
+        margin: 10px;
+    }
+
+    .name {
+        flex-wrap: wrap;
+    }
+
+    .name .first,
+    .last {
+        width: 100%;
+    }
+}
+
+label span {
+    margin: 5px;
+    color: #ff4da6;
+}
+
+label {
+    display: flex;
+    margin: 0 10px;
+    font-size: 18px;
+}
+
+.fields .forgotten a {
+    color: #8c31fa;
+}
+
+.fields input,
+.name input {
+    width: 100%;
+    padding: 18px;
+    font-size: 18px;
+    border-radius: 10px;
+    border: 2px solid #cc719e9d;
+    outline: none;
+}
+
+
+
+.field>input:focus,
+.name>input:focus {
+    border: 2px solid #853ddfd7;
+}
+.password-wrapper {
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+
+.toggle-icon {
+    position: absolute;
+    right: 10px;
+    cursor: pointer;
+    user-select: none;
+    font-size: 18px;
+    width: 20px;
+    display: flex;
+    justify-content: center;
+}
+.show {
+    display: inline;
+}
+
+.hide {
+    display: none;
+}
+
+
+
+
+
+.all_fields .forgotten {
+    margin: 10px;
+    padding-top: 10px;
+}
+
+.forgotten a {
+    text-decoration: none;
+    color: #b018ec;
+}
+
+.submit input {
+    width: 100%;
+    padding: 18px;
+    border-radius: 10px;
+    border: none;
+}
+
+.submit input {
+    margin-top: 20px;
+    font-size: 20px;
+    cursor: pointer;
+    background: linear-gradient(120deg, #ff4da6, #9b59b6);
+}
+
+.submit input:hover {
+    transform: scale(1.02);
+    transition: 0.3s;
+    background: linear-gradient(120deg, #9b59b6, #ff4da6);
+}
+
+
+.errorMsg {
+    display: block;
+    height: 10px;
+    margin-left: 10px;
+    color: red;
+    font-size: 14px;
+    visibility: hidden;
+
+}
+
+.errorMsg.show {
+    visibility: visible;
+}

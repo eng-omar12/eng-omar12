@@ -1,0 +1,59 @@
+
+
+
+body{
+    background-color: white;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+
+.contaner{
+    width: 900px;
+    height: 1100px;
+    background: violet;
+    
+}
+
+h1{
+    font: bold;
+    padding-top: 30px;
+    padding-bottom: 90px;
+}
+
+#job{
+    margin-top: -140px;
+    text-align: end;
+    padding-right: 190px;
+}
+#phone{
+    margin-top: -35px;
+    margin-left: 150px;
+}
+#email{
+    margin-left: 150px;
+}
+#address{
+    text-align: right;
+    padding-right: 170px;
+    margin-top: -40px;
+}
+.first{
+    margin-top: -55px;
+    padding-left: 150px;
+}
+.second{
+    margin-top: -55px;
+    padding-left: 150px;
+}
+.three{
+    display: block;
+    margin-top: -55px;
+    padding-left: 150px;
+    background-repeat: repeat;
+}
+
+hr{
+    width: 80%;
+}

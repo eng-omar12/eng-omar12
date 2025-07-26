@@ -1,0 +1,922 @@
+/* h1{
+    color: green;
+} */
+
+
+
+/* 
+للوصول الي الابن من خلال السلالة
+ */
+
+
+
+/* 
+*{ 
+    color: red;
+}
+
+
+#strong{ 
+    color: red;
+}
+
+
+.strong{ 
+    color: red;
+}
+
+
+div h1 strong{ 
+    color: red;
+}
+
+
+div > strong{ 
+    color: red;
+}
+
+
+
+
+.container .item #list{
+    color: red;
+}
+
+
+
+h1{
+    border-top: solid 10px blue;
+}
+    
+
+h1{
+    border-right: solid 10px blue;
+}
+
+
+h1{
+    border-bottom: solid 10px blue;
+}
+
+
+h1{
+    border-left: solid 10px blue;
+}
+****************************************************
+
+
+
+
+
+h1{
+    border-style: dotted;
+    border-color: red;
+    border-width: 10px;
+}
+
+
+
+h1{
+    border-style: dashed;
+    border-color: red;
+    border-width: 10px;
+}
+ */
+
+
+/* h1{
+    border-style: double;
+    border-color: red;
+    border-width: 10px;
+    width: fit-content;
+    width: max-content;
+    width: min-content;
+    margin-left: auto;
+    margin-right: auto;
+} 
+
+
+h1{
+    text-align: center; 
+    color: blue;
+    border: solid 3px;
+    border-width: 5px; 
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: yellow;
+    border-color: red;
+    font-size: 50px;
+}
+
+h1 strong{
+    color: darkorchid;
+}
+
+#m ,#dt{
+    color: rgb(255, 0, 0);
+}
+
+#tr{
+    color: black;
+}
+
+p{
+    font-size: 200%;
+}
+
+
+
+
+
+p{
+    font-style: oblique;
+}
+    
+
+
+
+
+p{
+    font-variant: small-caps;
+}
+
+
+p{
+    font-weight: bold;
+}*/
+
+
+
+
+/* 
+lighter
+bolder
+inherit
+*/
+/* span{
+    font-weight: initial;
+} */
+
+
+
+
+
+/* p{
+    font: italic small-caps bold 10px/100px fantasy;
+
+   
+    
+          font-style: italic;
+          font-variant: small-caps;
+          font-weight: bold;
+          font-size: 10px;
+          font-family: fantasy;
+          
+   
+    background-color: red;
+}  */
+
+
+
+
+/* body{
+    background-image: url(./FB_IMG_1723244333187.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+} */
+
+
+
+
+/* div{
+    width: 1000px;
+    height: 1000px;
+    border: 20px dotted red;
+    background-image: url(./FB_IMG_1723244333187.jpg);
+    background-repeat: no-repeat;
+    right top
+    right bottom 
+   
+    background-position: center;
+    background-size: contain;
+    background-origin: border-box;
+
+    background:  red url(./FB_IMG_1723244333187.jpg) no-repeat center/cover padding-box ;
+
+    background-image: linear-gradient(to bottom, red, transparent);
+     background-image: radial-gradient( circle 200px at left bottom ,
+      red, green, black, yellow);
+
+}   */
+
+
+
+
+/* 
+.parent{
+    background-color: #ff0;
+}
+.red{
+    background-color: #f00;
+    width: 50px;
+    height: 50px;
+}
+.green{
+    background-color: #0f0;
+    width: 50px;
+    height: 50px;
+}
+.blue{
+    background-color: #00f;
+    width: 50px;
+    height: 50px;
+}
+.float{
+    float: right;
+}
+.clear{
+    clear: both;
+} */
+
+
+
+
+
+
+/* div{
+    height: 200px;
+    width: 200px;
+    background-color: #f00;
+    border: 7px dotted;
+    
+      *  visible
+      *   hidden
+      *   scroll
+    
+    overflow-x: hidden;
+} */
+
+
+
+
+/* .parent{
+    background-color: skyblue;
+    width: 200px;
+    height: 2000px;
+    padding: 10px;
+    position: relative;
+}
+.parent div{
+    height: 50px;
+}
+
+.one{
+    background: tomato;
+} */
+
+
+/* 
+relative
+
+*/
+/* .two{
+    background: gold;
+    position: sticky;
+    top: 0;
+    bottom: 0;
+    
+}
+.three{
+    background: darkviolet;
+} */
+
+
+
+
+/* z-index: 1; لو عاوز اطلع عنصر فوق الاخر */
+/* div{
+    width: 150px;
+    height: 60px;
+    position: absolute;
+}
+
+.one{
+    background: red;    
+}
+
+.two{
+    background: blue;
+    top: 30px;
+    left: 30px;
+}
+
+.three{
+    background: green;
+    top: 50px;
+    left: 50px; 
+    z-index: -1;
+} */
+
+
+
+
+ /* ul, ol{
+    list-style-image:url(./FB_IMG_1723244333187.jpg)
+ }
+
+ li{
+    background: gold;
+ } */
+
+
+
+
+/* table{
+    width: 500px;
+    border-spacing: 0;
+}
+
+ th{
+    background-color: #00aeff;
+    height: 30px;
+ }
+
+ td{
+    background-color: #03b6fd96;
+    height: 25px;
+    text-align: center;
+    border: 3px solid #00aeff;
+ } */
+
+
+
+ /* p{
+    font-size: 20px;
+    background-color: red;
+    width: calc(100% - 100px);
+ } */
+
+
+
+/* 
+div{
+    height: 100px;
+    width: 200px;
+    background-color: black;
+    background-size: contain;
+}
+div:hover{
+    background-image: url(./FB_IMG_1723244333187.jpg);
+    background-repeat: no-repeat;
+}
+div:active{
+    background: red;
+}
+div:empty{
+    background: green;
+} */
+
+
+
+/* a{
+    color: #000;
+    text-decoration: none;
+    font-size: 30px;
+}
+
+a:hover{
+    color: red;
+}
+
+a:visited{
+    color: green;
+}
+
+a:link{
+    color: aqua;
+} */
+
+
+/* 
+input:focus{
+    background: red;
+    outline: none;
+}
+
+
+
+input:disabled{
+    background: red;
+}
+ */
+
+/* 
+input:required{
+    background: green;
+    outline: none;
+} */
+
+/* 
+input:invalid{
+    background: #ff0000a9;
+}
+
+
+input:valid{
+    background: #267023a9;
+} */
+
+/* 
+
+input:checked{
+    position: absolute;
+    right: 0;
+}
+*/
+
+
+/* 
+
+
+
+first-line
+first-letter
+
+*/
+/* p::first-letter{
+    color: red;
+    background: #000;
+    font-size: 30px;
+} */
+
+
+/* ::selection{
+    background: green;
+    color: #ff0000;
+} */
+
+/* p{
+    height: 50px;
+    background: #f68;
+    position: relative;
+}
+
+p::after{
+    content: " ";
+    background: red;
+    width: 20px;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+} */
+
+
+
+/* h2 ~ p{
+    color: red;
+} */
+
+
+
+/* input[placeholder]{
+    background: red;
+} */
+
+/* input[placeholder]{
+    background: red;
+} */
+
+
+/* [type="submit"]{
+    background: red;
+} */
+
+
+/* 
+[href ^="w"]{
+    color: red;
+} */
+
+/* [href $="com"]{
+    color: red;
+} */
+
+/* [href *="com"]{
+    color: red;
+} */
+/* [href ~="com"]{
+    color: red;
+} */
+/* [class="TEST" i]{
+    color: red;
+} */
+
+
+
+/* div{
+    width: 80px;
+    height: 80px;
+    background: red;
+
+    transform: matrix(1.5, 1.4, .7, 2, 100, 100);
+} */
+
+
+/* 
+translate: 200px 100px;
+scale: 1.5 1;
+
+*/ 
+/* div{
+    width: 80px;
+    height: 80px;
+    background: red;
+    rotate: 40deg;
+    
+} */
+/* 
+div{
+    width: 100px;
+    height: 30px;
+    background-color: red;
+    transition-property: width, height;
+    transition-duration: 3s, 1s;
+    transition-timing-function: ease;
+    transition-delay: 2s;
+
+    
+}
+div:hover{
+    width: 100%;
+    height: 300px;
+} */
+
+
+
+
+/* 0%{
+        background: green;
+        width: 0;
+      }
+      100%{
+        background: blue;
+        width: 100%;
+      } */
+
+/* 
+body{
+    background: red;
+    overflow: hidden;
+}
+
+div{
+     width: 100px;
+    height: 100px;
+    background: green;
+     */
+    /* animation-name: Omar;
+    animation-duration: 5s;
+    animation-timing-function: linear;
+    animation-delay: 1s;
+    animation-iteration-count: 1;
+    animation-direction: normal;
+    animation-fill-mode: both; */
+
+    /* animation: Omar 4s linear 1s 3  normal both running;
+
+}
+@keyframes Omar{
+    0%{
+        translate: 0 0;
+        background: yellow;
+        rotate: 0;
+    }
+    25%{
+        translate: 0 350px;
+        background: black;
+        rotate: 90deg;
+    }
+    50%{
+        translate: 950px 350px;
+        background: blue;
+        rotate: 180deg;
+    }
+    75%{
+        translate: 950px 0;
+        background: #00ffff;
+        rotate: 270deg;
+    }
+    100%{
+        translate: 0 0;
+        background: rgb(255, 0, 200);
+        rotate: 360deg;
+    }
+} */
+
+
+
+/* div:hover{
+    animation-play-state: paused ;
+    cursor: pointer;
+} */
+
+
+
+
+/* p{
+    display: inline;
+}
+
+span{
+    display: block;
+} */
+
+
+/* 
+.first{
+    background: red;
+    display: none;
+}
+
+.second{
+    background: green ;
+} */
+
+
+/* 
+flex-direction: row;
+flex-wrap: nowrap;
+flex-grow: 1; 
+flex-shrink: 5;
+flex-basis: 200px;
+(flex: 1 0 200px;)
+
+  */
+/* 
+.parent{
+    background: yellow;
+    padding: 10px;
+    display: flex;
+    height: 400px;
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    
+}
+
+.parent div{
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+}
+
+.item1{
+    background: red;
+    
+}
+.item2{
+    background: green;
+} 
+.item3{
+    background: blue;
+}
+.item4{
+    background: violet;
+}  */
+
+
+
+/* 
+    width: 500px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-columns: repeat(5, 100px);
+    
+    height: 250px;
+    grid-template-rows: 100px 100px;
+
+    grid-template-rows:minmax(100px, auto) repeat(2,100px);
+    width: 500px;
+    grid-column: 2/4;
+    grid-row: 2/4;
+ */
+/* 
+.parent{
+    background: red;
+    padding: 5px;
+
+    height: 900px;
+    width: 950px;
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    gap: 10px;
+    grid-template-areas: 
+
+    "header header header"
+    "nav main sidebar"
+    "nav main sidebar"
+    "footer footer footer"
+    ;
+    text-align: center;
+}
+
+.parent div{
+    background: yellow;
+    padding: 120px;
+    font-size: 26px;
+} */
+
+/* .parent .item1{
+    background: blue;
+    grid-column: 2/4;
+} */
+
+
+/* .header{
+    grid-area: header;
+}
+
+.nav{
+    grid-area: nav;
+}
+
+.main{
+    grid-area: main;
+}
+
+.footer{
+    grid-area: footer;
+}
+
+.sidebar{
+    grid-area: sidebar;
+} */
+
+/* 
+body{
+    background: black;
+}
+
+@media (max-width:800px){
+    body{
+        background: red;
+    }
+}
+
+@media (min-width:801px) and (max-width:1100px){
+    body{
+        background: blue;
+    }
+}
+
+@media (min-width:1001px) and (max-width:1400px){
+    body{
+        background: green;
+    }
+}
+
+@media (min-width:1401px) and (max-width:1700px){
+    body{
+        background: yellow;
+    }
+} */
+
+
+/* @media print{
+    h1{
+        color: red;
+    }
+} */
+
+/* project */
+
+/* body{
+    background-color: #003;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+form{
+    background-color: #0000889f;
+    padding: 10px;
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+}
+
+form input{
+    background-color: #0000aaa0;
+    border: none;
+    outline: none;
+    padding: 5px 10px;
+    color: white;
+    flex-basis: 200px;
+    flex-grow: 1;
+}
+
+form button{
+    background: #14a;
+    color: white;
+    border: none;
+    cursor: pointer;
+    padding: 5px 10px;
+    flex-basis: 30px;
+    flex-grow: 1;
+} */
+
+
+ @import url("https://fonts.googleapis.com/css2?family=Ubuntu:ital@1&display=swap");
+
+ *{
+    font-family: "Ubuntu", sans-serif;
+    font-size: 50px;
+    padding: 0;
+    margin: 0;
+ }
+ a{
+    color: white;
+    text-decoration: none;
+ }
+ body{
+    background-image: linear-gradient(to right, #01022d, black);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+ .container{
+    background-image: 
+    linear-gradient(to right, #01022de5 10%, #00000088),
+    url(./2.jpg )
+    
+    ;
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
+    width: 85%;
+    height: 100%;
+    
+ }
+ .container:hover{
+    background-image:
+    linear-gradient(to right, #01022de5 10%, transparent),
+    url(./2.jpg )
+    ;
+ }
+ header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+ }
+
+
+.logo{
+    font-size: 70px;
+    text-transform: uppercase;
+}
+ul{
+    width: 60%;
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+}
+ul a{
+    border-bottom: 2px solid transparent;
+}
+ul a:hover{
+
+    border-bottom-color: white;
+}
+
+.content{
+    color: white;
+    width: 50%;
+    margin-top: 50px;
+    padding: 30px;
+}
+.content h2{
+    font-size: 150px;
+    text-transform: uppercase;
+}
+.content p{
+    letter-spacing: 3px;
+    width: 400px;
+    padding: 20px 0;
+}
+.content button{
+    font-size: 30px;
+    padding: 6px 10px;
+    border-radius: 10px;
+    border-color: 2px solid transparent;
+    cursor: pointer;
+}
+.content button:hover{
+    background-color: transparent;
+    border-color: white;
+    color: white;
+}

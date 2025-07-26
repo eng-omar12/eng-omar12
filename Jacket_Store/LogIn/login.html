@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://use.fontawesome.com/releases/v5.15.4/js/all.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./login.css">
+    <title>Log In</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="logo">
+            <h1 class="gradient-text">Log In</h1>
+        </div>
+
+        <div class="all_fields">
+            <form onsubmit="login(event)">
+
+
+                <!-- first name and last name -->
+                <div class="name">
+                    <div class="first field">
+                        <label for="email">Email:<span>*</span></label>
+                        <input type="email" name="email" id="email" placeholder="Email">
+                        <span id="errorEmail" class="errorMsg"></span>
+                    </div>
+                </div>
+
+                <!-- email -->
+                <div class="fields">
+                    <div class="pass field">
+                        <label for="pass">Password:<span>*</span></label>
+                        <div class="password-wrapper">
+
+                            <input type="password" name="pass" id="pass" placeholder="Password">
+                            <span id="toggleEye" class="toggle-icon"><i class='fas fa-eye'></i></span>
+                            <span id="toggleSlash" class="toggle-icon hide "><i class='fas fa-eye-slash'></i></span>
+                        </div>
+                        <span id="errorPass" class="errorMsg"></span>
+                    </div>
+
+                    <div class="forgotten">
+                        <span>Don't have an account? <a href="./signup.html">Sign Up</a></span>
+                    </div>
+
+                    <!-- submit -->
+                    <div class="submit">
+                        <input type="submit" value="Log in">
+                    </div>
+                </div>
+
+            </form>
+        </div>
+    </div>
+
+    <script src="./auth.js"></script>
+</body>
+
+</html>

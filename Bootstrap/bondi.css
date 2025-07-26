@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+}
+
+:root {
+    --dark: #19283f;
+    --green: #33d1cc;
+}
+
+.navbar {
+    background-color: var(--dark);
+}
+
+.navbar .navbar-nav .nav-link {
+    color: #fff;
+}
+
+.navbar .navbar-nav .nav-link.active, 
+.navbar .navbar-nav .nav-link:focus, 
+.navbar .navbar-nav .nav-link:hover {
+    color: var(--green);
+}
+
+.navbar .search {
+    border-left: 1px solid var(--green);
+}
+.navbar .search svg {
+    color: var(--green);
+}
+.navbar .search svg:hover {
+    color: #fff;
+}
+
+.navbar .navbar-toggler {
+    color: #fff;
+    font-size: 25px;
+    border-color: #fff;
+}
+.navbar .navbar-toggler:focus {
+    box-shadow: none;
+}
+.navbar .navbar-toggler[aria-expanded="true"] {
+    border-color: var(--green);
+}

@@ -1,0 +1,312 @@
+/* 1. Simple Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* 2. Body Styling */
+body {
+  display: flex;
+  background: #000;
+  color: #fff;
+  font-family: Arial, sans-serif;
+  line-height: 1.5;
+  justify-content: center;
+  height: 100vh;
+}
+
+/* 4. Header */
+header {
+  background: #111;
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.main-nav ul {
+  list-style: none;
+  display: flex;
+  gap: 15px;
+}
+.main-nav ul a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.main-nav ul li a:hover {
+  text-decoration: underline;
+}
+/* 5. Hero Section */
+.hero {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+
+/* 6. Secondary Navigation */
+.sub-nav {
+  background: #fff;
+  width: 100%;
+  padding: 10px;
+}
+.sub-nav ul {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  flex-wrap: wrap;
+  gap: 5%;
+}
+.sub-nav ul a {
+  position: relative;  
+  color: #000; 
+  text-decoration: none;
+}
+
+
+/* ///////////////////////////////////////// */
+.sub-nav .color-html > a::after {
+  content: "";
+  position: absolute;  
+  bottom: -5px;
+  left: 0;
+  width: 0;
+  height: 3px;
+  background-color: #ff6b6b;
+  transition: 0.3s;
+}
+.sub-nav .color-html > a:hover::after{
+  width: 100%;
+}
+.color-html a:hover {
+  color: #ff6b6b;
+  transition: 0.3s;
+  position: relative;
+}
+/* ///////////////////////////////////////// */
+
+
+.sub-nav .color-css > a::after {
+  content: "";
+  position: absolute;  
+  bottom: -5px;
+  left: 0;
+  width: 0;
+  height: 3px;
+  background-color: #4ecdc4;
+  transition: 0.3s;
+}
+.sub-nav .color-css > a:hover::after{
+  width: 100%;
+}
+.color-css a:hover {
+  color: #4ecdc4;
+  transition: 0.3s;
+  position: relative;
+}
+/* ///////////////////////////////////////// */
+
+.color-js a:hover {
+  color: #ffd166;
+  transition: 0.3s;
+  position: relative;
+}
+.sub-nav .color-js > a::after {
+  content: "";
+  position: absolute;  
+  bottom: -5px;
+  left: 0;
+  width: 0;
+  height: 3px;
+  background-color: #ffd166;
+  transition: 0.3s;
+}
+.sub-nav .color-js > a:hover::after{
+  width: 100%;
+}
+/* ///////////////////////////////////////// */
+.color-php a:hover {
+  color: #6a4c93;
+  transition: 0.3s;
+  position: relative;
+}
+.sub-nav .color-php > a::after {
+  content: "";
+  position: absolute;  
+  bottom: -5px;
+  left: 0;
+  width: 0;
+  height: 3px;
+  background-color: #6a4c93;
+  transition: 0.3s;
+}
+.sub-nav .color-php > a:hover::after{
+  width: 100%;
+}
+/* ///////////////////////////////////////// */
+.color-sql a:hover {
+  color: #3a86ff;
+  transition: 0.3s;
+  position: relative;
+}
+.sub-nav .color-sql > a::after {
+  content: "";
+  position: absolute;  
+  bottom: -5px;
+  left: 0;
+  width: 0;
+  height: 3px;
+  background-color: #3a86ff;
+  transition: 0.3s;
+}
+.sub-nav .color-sql > a:hover::after{
+  width: 100%;
+}
+/* ///////////////////////////////////////// */
+
+
+
+/* 7. Main Content Container */
+main {
+  max-width: 80%;
+  margin: 30px auto;
+  padding: 0 15px;
+}
+
+/* 8. Card Styles */
+.card {
+  position: relative;
+  padding: 15px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  transition: 0.3s;
+}
+.card:hover{
+  transform: scale(1.02);
+}
+.card .with_img{
+  width: 100px;
+  height: 100px;
+}
+.card .image_icons {
+  margin-bottom: 8px;
+  width: 100%;
+  height: auto;
+}
+.margin_css{
+  margin: 0 0 14px 8px ;
+}
+.with{
+  width: 150px;
+}
+.with .icon {
+  width: 100%;
+  margin: -16px 0 -25px -17px ;
+}
+
+.card p {
+  margin-bottom: 12px;
+}
+
+
+
+
+
+/* 3. Links */
+.btn {
+  display: inline-block;
+  padding: 8px 12px;
+  background: #555;
+  border-radius: 5px;
+
+  text-decoration: none;
+  color: #fff;
+  border: 1px solid #333;
+  transition: 0.3s;
+  margin-bottom: -15px;
+}
+.btn:hover {
+  transform: scale(1.05);
+}
+
+/* 9. Card Background Colors */
+.html {
+  background: #ff6b6b;
+}
+.css {
+  background: #4ecdc4;
+}
+.js {
+  background: #ffd166;
+  color: #111;
+}
+.php {
+  background: #6a4c93;
+}
+.mysql {
+  background: #3a86ff;
+}
+
+/* 10. PHP & MySQL Row */
+.row {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+.row .card {
+  flex: 1;
+  min-width: 200px;
+}
+
+/* 11. Footer & Contact Form */
+
+footer form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  max-width: 600px;
+  margin: auto;
+}
+footer input,
+footer textarea {
+  padding: 8px;
+  border: none;
+  border-radius: 7px;
+  min-width: 100%;
+  outline: none;
+}
+footer input, button{
+  height: 50px;
+}
+footer button {
+  padding: 10px;
+  background: #ff6b6b;
+  border: none;
+  border-radius: 7px;
+  cursor: pointer;
+  /* width: 100%; */
+  margin-bottom: 30px;
+  font-size: 16px;
+  transition: 0.3s;
+}
+footer button:hover {
+  transform: scale(1.02);
+}
+
+#photo {
+  width: 100%;
+  height: 300px;
+}
+
+.omar {
+  width: 70%;
+}
+
+#conta {
+  max-width: 100%;
+}

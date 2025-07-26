@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+
+  width: 100%;
+}
+
+.app {
+  width: 100%;
+  display: flex;
+  /* flex-direction: column; */
+  flex-wrap: wrap;
+}
+
+ul {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  gap: 30px;
+  background-color: #db7093;
+  padding-left: 50px;
+  width: 100%;
+  height: 80px;
+}
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-basis: 100%;
+    text-align: center;
+    padding: 30px;
+    margin: 20px;
+    border: 2px dashed #db7093;
+}
+
+.cards h1 {
+  color: #00ffff;
+}

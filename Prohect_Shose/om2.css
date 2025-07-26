@@ -1,0 +1,209 @@
+
+
+
+/* login */
+
+
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  margin: 0 auto;
+  padding: 20px;
+  background: #fff;
+  background: url('./shose/loging_bg.png') no-repeat center/cover;
+  position: relative;
+}
+
+/* قسم الحذاء */
+.shoe-section {
+  flex: 1;
+  width: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.shoe-section img {
+  max-width: 70%;
+  height: auto;
+}
+
+/* قسم الفورم */
+.form-section {
+  flex: 1;
+  border-radius: 10px;
+  margin-left: 20px;
+  padding: 40px;
+  max-width: 450px;
+}
+
+.form-section h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.input-group {
+  position: relative;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.input-group a {
+  position: relative;
+  top: 30px;
+  left: 15px;
+  color: #b02c27;
+}
+
+.input-group input {
+  width: 100%;
+  padding: 12px 12px 12px 40px;
+  border: 2px solid #730390;
+  border-radius: 5px;
+  font-size: 1rem;
+  outline: none;
+}
+
+.forgot {
+  text-align: right;
+  margin-bottom: 20px;
+  font-size: 0.9rem;
+  color: #555;
+  cursor: pointer;
+}
+
+
+.forgot:hover {
+  text-decoration: underline;
+}
+
+
+
+.login-btn {
+  width: 100%;
+  padding: 12px;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  cursor: pointer;
+  color: #fff;
+  background: linear-gradient(to right, #cd1c96, #6a008f);
+  transition: 0.2s;
+}
+
+.login-btn:hover {
+  background: linear-gradient(to right, #6a008f, #cd1c96);
+}
+
+.social-login {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+
+.social-login a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #fff;
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  font-size: 1.3rem;
+  color: #000;
+  cursor: pointer;
+}
+
+
+
+.contacts {
+  font-size: large;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  max-width: 250vh;
+  background: #cacaca;
+  padding: 50px 60px 40px;
+
+}
+
+
+
+.contact-info h2,
+.contactinfo h2 {
+  color: #1c0273;
+  padding-bottom: 20px;
+}
+
+
+.social h2,
+.newsletter h2 {
+  padding-bottom: 35px;
+  color: #1c0273;
+}
+
+
+
+.contact-info h2:hover,
+.contactinfo h2:hover,
+.social h2:hover,
+.newsletter h2:hover {
+  color: #cd1c96;
+  transition: 0.1s;
+}
+
+
+.contacts p {
+  margin: 15px;
+}
+
+.social {
+  padding: 5px;
+}
+
+.social a {
+  background: white;
+  padding: 9px;
+  color: #000;
+  border-radius: 50%;
+}
+
+
+
+
+.social a:hover {
+  background: #cd1c96;
+  color: white;
+  transition: 0.3s;
+}
+
+
+#ema {
+  padding: 10px;
+  border-radius: 20px;
+  border: none;
+  background: #ccc;
+}
+
+.contactinfo p {
+  text-align: center;
+}
+
+.submit {
+  border-radius: 20px;
+  padding: 10px;
+  margin: 3px;
+  background: #cd1c96;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+.submit:hover{
+  transform: scale(1.1);
+}

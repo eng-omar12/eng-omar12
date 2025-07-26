@@ -1,0 +1,8 @@
+.text {
+    /* display: f; */
+    color: #f00;
+    background-color: green;
+    text-align: center;
+    width: 300px;
+    margin-left: calc((50% - 150px) );
+}

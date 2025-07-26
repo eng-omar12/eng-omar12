@@ -1,0 +1,43 @@
+
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>X-O Game</title>
+  <link rel="stylesheet" href="style1.css" />
+</head>
+<body>
+  <h1>لعبة X-O</h1>
+
+  <div class="players">
+    <label>اللاعب X: <input type="text" id="playerX" placeholder="اسم اللاعب X" /></label>
+    <label>اللاعب O: <input type="text" id="playerO" placeholder="اسم اللاعب O" /></label>
+    <button onclick="startGame()">ابدأ اللعبة</button>
+  </div>
+
+  <div class="score" id="scoreBoard" style="display:none;">
+    <p><span id="nameX">X</span>: <span id="scoreX">0</span> نقطة</p>
+    <p><span id="nameO">O</span>: <span id="scoreO">0</span> نقطة</p>
+  </div>
+
+  <div class="board" id="board" style="display:none;">
+    <div class="cell" data-index="0"></div>
+    <div class="cell" data-index="1"></div>
+    <div class="cell" data-index="2"></div>
+    <div class="cell" data-index="3"></div>
+    <div class="cell" data-index="4"></div>
+    <div class="cell" data-index="5"></div>
+    <div class="cell" data-index="6"></div>
+    <div class="cell" data-index="7"></div>
+    <div class="cell" data-index="8"></div>
+  </div>
+
+  <p id="status"></p>
+  <button onclick="restartGame()" style="display:none;" id="restartBtn">إعادة اللعبة</button>
+
+  
+
+  <script src="game.js"></script>
+</body>
+</html>

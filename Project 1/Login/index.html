@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <form>
+
+
+        <div class="container">
+
+            <div class="aling">
+    
+                <div class="first">
+                    <h2>Contact Us</h2>
+                    <label for="1">First Name *</label>
+                    <input type="text" id="1" required pattern="[A-Za-z\s]+">
+                    <span class="error">This field is required</span>
+                </div>
+    
+                <div class="last">
+                    <label for="2">Last Name *</label>
+                    <input type="2" id="last" required pattern="[A-Za-z\s]+">
+                    <span class="error">This field is required</span>
+               </div>
+
+            </div>
+
+
+
+            <div class="email">
+                    <label for="3">Email Address *</label>
+                    <input type="3" id="email" required pattern="[A-Za-z\s@.]+">
+                    <span class="error">Please enter a valid email address</span>
+            </div>
+
+
+        
+            <p class="text"> Query Type *</p>
+            <div class="rrr">
+                
+                <div class="r1">
+                    <input type="radio" name="query" id="4" required >
+                    <label for="4">General Enquiry</label>
+                </div>
+    
+                <div class="r2">
+                    <input type="radio" name="query" id="5" required >
+                    <label for="5">Support Request</label>
+                </div>
+            </div>
+            <span class="warning">Please choose one of the two options</span>
+
+           
+            
+            <div class="message">
+                <p id="7">Message *</p>
+                <input type="text" name="" id="" required pattern="[A-Za-z\s]+">
+                <span class="error">This field is required</span>
+            </div>
+
+
+    
+            <div>
+                <input class="check" type="checkbox" name="e" id="8" required >
+                <label for="8">I consent to being contacted by the team *</label>
+                <br>
+                <span class="warning">This field is required</span>
+            </div>
+            
+
+            
+            <input class="button" type="Submit" value="Submit">
+        </div>
+
+    </form>
+</body>
+</html>
