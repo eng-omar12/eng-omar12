@@ -178,6 +178,7 @@ label {
     user-select: none;
     font-size: 18px;
     width: 20px;
+    height: 20px;
     display: flex;
     justify-content: center;
 }
