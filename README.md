@@ -103,6 +103,9 @@
   <a href="https://github.com/eng-omar12">
     <img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white"/>
   </a>
+  <a href="https://wa.me/201224267594" target="_blank" rel="noopener noreferrer">
+    <img src="https://img.shields.io/badge/WhatsApp-%2B201224267594-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" alt="WhatsApp"/>
+  </a>
 </p>
 
 ---
