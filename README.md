@@ -9,9 +9,12 @@
 ---
 
 ## 🚀 About Me
-- 👨‍💻 Building **modern, interactive, and scalable** web apps  
+- 👨‍💻 Building **modern, interactive, and scalable** web apps 
 - 🌱 Learning **React, Next.js, and Cybersecurity**  
-- 🌐 Live Projects: 
+- 🌐 Live Projects:
+  - [💻 CodePWorks](https://codeproworks.com/)
+  - [🔎 SEOra](https://seora.pro/)
+  - [💻 CodeCraft Pro](https://codecpro.netlify.app/)
   - [🧥 Jacket Store](https://jacstor.netlify.app)  
   - [🌌 Space Project](http://spacepr.netlify.app)  
 - 🏆 Mission: **Think big, innovate, and make the world better**  
