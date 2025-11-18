@@ -56,9 +56,9 @@
 
 ---
 
-## 📈 GitHub Stats
+## 📈 GitHub Stats 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=eng-omar12&show_icons=true&theme=tokyonight&count_private=true" width="55%">
+  <img src="https://github-readme-stats-rho-rust-73.vercel.app/api?username=eng-omar12&show_icons=true&theme=tokyonight&count_private=true" width="55%">
   <br>
   <img src="https://github-readme-streak-stats.herokuapp.com?user=eng-omar12&theme=tokyonight" width="55%">
   <br>
@@ -104,7 +104,7 @@
     <img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white"/>
   </a>
   <a href="https://wa.me/201224267594" target="_blank" rel="noopener noreferrer">
-    <img src="https://img.shields.io/badge/WhatsApp-%2B201224267594-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" alt="WhatsApp"/>
+    <img src="https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" alt="WhatsApp"/>
   </a>
 </p>
 
