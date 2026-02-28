@@ -12,9 +12,13 @@
 - 👨‍💻 Building **modern, interactive, and scalable** web apps 
 - 🌱 Learning **React, Next.js, and Cybersecurity**  
 - 🌐 Live Projects:
-  - [💻 CodePWorks](https://codeproworks.com/)
+  - [💻 Nova Digital Solutions](https://novds.com)
+  - [⚕️ Pharma Hub ](https://platforms.free.nf)
+  - [🎓 Educational platform ](https://platform-t.free.nf)
+  - [🛠️ Cashier system](https://cashier.free.nf)
+  - [📖 NewsHub Pro ](https://newsit.free.nf/)
   - [🔎 SEOra](https://seora.pro/)
-  - [💻 CodeCraft Pro](https://codecpro.netlify.app/)
+  - [💻 CodeCraft Pro](https://codecpro.netlify.app)
   - [🧥 Jacket Store](https://jacstor.netlify.app)  
   - [🌌 Space Project](http://spacepr.netlify.app)  
 - 🏆 Mission: **Think big, innovate, and make the world better**  
